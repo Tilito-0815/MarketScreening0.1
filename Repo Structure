@@ -1,0 +1,7 @@
+deal-agent/
+├── agent.py
+├── config.yaml
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── run-agent.yml
