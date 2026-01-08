@@ -1,0 +1,17 @@
+product:
+  name: "Arc'teryx Cerium SV Hoody"
+  size: "S"
+  preferred_color: "Black Sapphire"
+
+targets:
+  - name: "Arcteryx Official"
+    url: "https://arcteryx.com/us/en/shop/mens/cerium-sv-hoody"
+    selector:
+      price: '[data-test="product-price"]'
+      color: '[data-test="color-selector"]'
+      size: '[data-test="size-selector"]'
+
+alerts:
+  notify_on:
+    - in_stock
+    - price_drop
